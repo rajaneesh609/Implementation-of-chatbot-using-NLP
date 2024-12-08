@@ -7,30 +7,15 @@ EduBot is an AI-driven educational assistant that combines Natural Language Proc
 ---
 
 ## Features
-<ol>
-EduBot adapts to individual learning needs, offering tailored explanations, resources, and quizzes to match each student's progress and understanding.
-It uses advanced NLP to understand and interpret student queries, providing contextually accurate answers in natural language.
-Powered by Streamlit, EduBot offers an intuitive and easy-to-use interface, allowing students to interact with the bot seamlessly across various devices.
-Leveraging PyTorch, EduBot suggests relevant learning materials, exercises, and topics based on student performance and preferences, enhancing the learning experience.
-</ol>
+
+*EduBot adapts to individual learning needs, offering tailored explanations, resources, and quizzes to match each student's progress and understanding.
+*It uses advanced NLP to understand and interpret student queries, providing contextually accurate answers in natural language.
+*Powered by Streamlit, EduBot offers an intuitive and easy-to-use interface, allowing students to interact with the bot seamlessly across various devices.
+*Leveraging PyTorch, EduBot suggests relevant learning materials, exercises, and topics based on student performance and preferences, enhancing the learning experience.
+
 
 ---
 
-## How It Works
-
-1. **Ask Questions:**  
-   Users type their health-related queries into the input box on the "Home" screen.
-
-2. **Receive Responses:**  
-   MediBot analyzes the input and provides a text-based response.
-
-3. **Review History:**  
-   Users can review the conversation history in the "Conversation History" section, which displays all previous interactions.
-
-4. **Learn More About MediBot:**  
-   The "About" section provides an overview of the chatbot’s purpose and features.
-
----
 
 ## Technologies Used
 
@@ -57,7 +42,7 @@ Follow these steps to set up and run the MediBot project on your local machine:
 ### 2. Create a Virtual Environment (Optional)
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+venv\Scripts\activate  # On Linux/Mac  source venv/bin/activate
 ```
 
 ### 3. Install Required Packages
@@ -76,7 +61,7 @@ nltk.download('punkt')
 ## Usage
 To run the chatbot application, execute the following command:
 ```bash
-python -m streamlit run MediBot.py
+streamlit run Edubot.py
 ```
 
 Once the application is running, you can interact with the chatbot through the web interface. Type your message in the input box and press Enter to see the chatbot's response.
@@ -109,4 +94,4 @@ Replace `<repository-url>` and `<repository-directory>` with the actual URL of r
 
 ---
 
-### HAPPY CODING AND LEARNING 😊
+### Happy Coding 😄
