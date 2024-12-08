@@ -1,24 +1,18 @@
-# Hardi-Makwana-P4-Implementation-of-ChatBot-using-NLP
+# Implementation-of-ChatBot-using-NLP
 
-# MediBot - Your Medical Assistant 🤖
+# Edubot - Your Educational Assistant 🤖
 
-MediBot is a medical chatbot designed to provide quick responses to common health-related queries. Built using **Python** and **Streamlit**, MediBot utilizes Natural Language Processing (NLP) techniques and Logistic Regression for intent-based response generation. It offers a user-friendly interface and logs conversations for review.
+EduBot is an AI-driven educational assistant that combines Natural Language Processing (NLP), PyTorch, Python, and Streamlit to create an interactive learning platform. It uses NLP to understand student queries and generate accurate, personalized responses while leveraging PyTorch for deep learning-based recommendations. Streamlit powers the user-friendly interface, making EduBot accessible and engaging for students across various subjects.
 
 ---
 
 ## Features
-
-- **Intent-based Response Generation:**  
-  MediBot interprets user queries using NLP techniques and give responses based on predefined intents.
-
-- **Conversation Logging:**  
-  User queries and chatbot responses are logged with timestamps for review and analysis.
-
-- **Streamlit-powered Interface:**  
-  A simple and interactive web application interface that allows seamless interaction.
-
-- **Expandable Design:**  
-  Easy to enhance with additional intents or features such as advanced AI-based responses.
+<ol>
+EduBot adapts to individual learning needs, offering tailored explanations, resources, and quizzes to match each student's progress and understanding.
+It uses advanced NLP to understand and interpret student queries, providing contextually accurate answers in natural language.
+Powered by Streamlit, EduBot offers an intuitive and easy-to-use interface, allowing students to interact with the bot seamlessly across various devices.
+Leveraging PyTorch, EduBot suggests relevant learning materials, exercises, and topics based on student performance and preferences, enhancing the learning experience.
+</ol>
 
 ---
 
