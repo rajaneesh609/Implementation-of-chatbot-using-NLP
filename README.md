@@ -7,12 +7,12 @@ EduBot is an AI-driven educational assistant that combines Natural Language Proc
 ---
 
 ## Features
-
--**EduBot adapts to individual learning needs, offering tailored explanations, resources, and quizzes to match each student's progress and understanding.
--**It uses advanced NLP to understand and interpret student queries, providing contextually accurate answers in natural language.
--**Powered by Streamlit, EduBot offers an intuitive and easy-to-use interface, allowing students to interact with the bot seamlessly across various devices.
--**Leveraging PyTorch, EduBot suggests relevant learning materials, exercises, and topics based on student performance and preferences, enhancing the learning experience.
-
+<ul>
+<li>EduBot adapts to individual learning needs, offering tailored explanations, resources, and quizzes to match each student's progress and understanding.</li>
+<li>It uses advanced NLP to understand and interpret student queries, providing contextually accurate answers in natural language.</li>
+<li>Powered by Streamlit, EduBot offers an intuitive and easy-to-use interface, allowing students to interact with the bot seamlessly across various devices.</li>
+<li>Leveraging PyTorch, EduBot suggests relevant learning materials, exercises, and topics based on student performance and preferences, enhancing the learning experience.</li>
+</ul>
 
 ---
 
@@ -87,10 +87,6 @@ Contributions to this project are welcome! If you have suggestions for improveme
 - **NLTK** for natural language processing.
 - **Scikit-learn** for machine learning algorithms.
 - **Streamlit** for building the web interface.
-
----
-
-Replace `<repository-url>` and `<repository-directory>` with the actual URL of repository and the name of the directory where the project is located. 
 
 ---
 
