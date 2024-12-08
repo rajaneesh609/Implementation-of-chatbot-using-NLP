@@ -1,5 +1,5 @@
 # Implementation-of-ChatBot-using-NLP
-
+---
 # Edubot - Your Educational Assistant 🤖
 
 EduBot is an AI-driven educational assistant that combines Natural Language Processing (NLP), PyTorch, Python, and Streamlit to create an interactive learning platform. It uses NLP to understand student queries and generate accurate, personalized responses while leveraging PyTorch for deep learning-based recommendations. Streamlit powers the user-friendly interface, making EduBot accessible and engaging for students across various subjects.
