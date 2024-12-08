@@ -1,0 +1,639 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "What's up?",
+        "Howdy"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What can I help with?",
+        "Hey! How are you doing?",
+        "Greetings! How can I assist?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Take care",
+        "Have a nice day",
+        "Thank You"
+      ],
+      "responses": [
+        "Goodbye! Take care.",
+        "See you soon! Stay healthy.",
+        "Bye! Have a great day.",
+        "Take care! Feel free to chat again."
+      ]
+    },
+    {
+      "tag": "admission_inquiry",
+      "patterns": [
+        "How can I apply for admission?",
+        "What are the admission requirements?",
+        "Tell me about the application process",
+        "How do I get into your school?",
+        "What is the admission procedure?"
+      ],
+      "responses": [
+        "To apply for admission, visit our admissions page for detailed instructions.",
+        "You can apply online by filling out the application form on our website.",
+        "Admissions require submitting your academic transcripts and test scores. Check our site for specific deadlines."
+      ]
+    },
+    {
+      "tag": "course_inquiry",
+      "patterns": [
+        "What courses do you offer?",
+        "Can you tell me about your courses?",
+        "I want to know about available courses",
+        "What courses can I take in your institution?"
+      ],
+      "responses": [
+        "We offer a variety of courses including Science, Arts, Technology, and Business. Check our course catalog for details.",
+        "Our institution provides courses from undergraduate to postgraduate levels. You can view all our courses on our website."
+      ]
+    },
+    {
+      "tag": "tuition_fee",
+      "patterns": [
+        "What is the tuition fee?",
+        "How much does it cost to attend?",
+        "Tell me about the tuition fees",
+        "Are there any scholarships or financial aid options?"
+      ],
+      "responses": [
+        "Tuition fees vary based on the course and program. Please visit our tuition fee page for detailed information.",
+        "You may be eligible for financial aid or scholarships. Check our financial aid page for more details."
+      ]
+    },
+    {
+      "tag": "exam_schedule",
+      "patterns": [
+        "When is the next exam?",
+        "What is the exam schedule?",
+        "Tell me the exam dates",
+        "When are the upcoming tests?"
+      ],
+      "responses": [
+        "Please visit our exam schedule page for the full list of upcoming exam dates.",
+        "Exam dates are published on our student portal. Check it regularly for updates."
+      ]
+    },
+    {
+      "tag": "grading_policy",
+      "patterns": [
+        "What is your grading policy?",
+        "How are grades calculated?",
+        "Tell me about your grading system",
+        "What is the grading scale?"
+      ],
+      "responses": [
+        "Our grading scale follows a letter system from A to F, with A being the highest grade. Check our academic handbook for more details.",
+        "Grades are based on your performance in assignments, exams, and projects. Refer to our grading policy on the website."
+      ]
+    },
+    {
+      "tag": "class_schedule",
+      "patterns": [
+        "When are my classes?",
+        "Tell me the class schedule",
+        "What time does my class start?",
+        "When is my next class?"
+      ],
+      "responses": [
+        "You can find your class schedule by logging into the student portal.",
+        "Class schedules are available on our website and student portal for easy access."
+      ]
+    },
+    {
+      "tag": "student_support",
+      "patterns": [
+        "Do you provide student support?",
+        "How can I get academic help?",
+        "Where can I get help with my studies?",
+        "Is there any tutoring available?"
+      ],
+      "responses": [
+        "Yes, we offer academic support services including tutoring and study groups. Visit our student support page for more information.",
+        "We have a dedicated academic support team ready to assist you with any challenges. Check out our student resources page."
+      ]
+    },
+    {
+      "tag": "study_materials",
+      "patterns": [
+        "Where can I find study materials?",
+        "Do you provide online resources?",
+        "Where can I download the course materials?",
+        "Do you have textbooks available?"
+      ],
+      "responses": [
+        "Study materials are available through our online portal. You can download them from there.",
+        "You can access all course materials on the learning management system (LMS) we use. Log in to get started."
+      ]
+    },
+    {
+      "tag": "attendance_policy",
+      "patterns": [
+        "What is the attendance policy?",
+        "How many classes can I miss?",
+        "Tell me about your attendance rules",
+        "What happens if I miss a class?"
+      ],
+      "responses": [
+        "Attendance is mandatory for all classes. Refer to the student handbook for detailed rules on absences.",
+        "You are allowed to miss a limited number of classes. Excessive absences may affect your grade."
+      ]
+    },
+    {
+      "tag": "internship_opportunities",
+      "patterns": [
+        "Are there any internship opportunities?",
+        "Do you offer internships?",
+        "How can I apply for an internship?",
+        "Where can I find internship opportunities?"
+      ],
+      "responses": [
+        "Yes, we offer internship opportunities to students. Please visit our career services page for more information.",
+        "You can apply for internships through our career services office, which helps place students in relevant companies."
+      ]
+    },
+    {
+      "tag": "student_clubs",
+      "patterns": [
+        "What student clubs do you have?",
+        "Are there any extracurricular activities?",
+        "Tell me about student organizations",
+        "How can I join a student club?"
+      ],
+      "responses": [
+        "We offer a variety of student clubs ranging from arts to business and tech. Check our student activities page to get involved.",
+        "You can join any student club by signing up through our student portal or during the annual club fair."
+      ]
+    },
+    {
+      "tag": "campus_facilities",
+      "patterns": [
+        "What facilities are available on campus?",
+        "Tell me about campus amenities",
+        "Are there libraries or gyms on campus?",
+        "What facilities do you have for students?"
+      ],
+      "responses": [
+        "Our campus offers modern facilities such as libraries, gyms, student lounges, and computer labs.",
+        "We have a wide range of facilities including a cafeteria, sports fields, and student lounges. Visit our campus guide for more."
+      ]
+    },
+    {
+      "tag": "graduation_requirements",
+      "patterns": [
+        "What are the graduation requirements?",
+        "How do I graduate?",
+        "Tell me about the graduation criteria",
+        "What do I need to do to graduate?"
+      ],
+      "responses": [
+        "To graduate, you need to complete the required number of credits and maintain a minimum GPA. Visit our graduation page for more details.",
+        "Graduation requirements include completing all core courses, elective courses, and internships. Be sure to check your progress regularly."
+      ]
+    },
+    {
+      "tag": "academic_calendar",
+      "patterns": [
+        "What is the academic calendar?",
+        "When does the semester start?",
+        "Tell me about the school year schedule",
+        "What are the important academic dates?"
+      ],
+      "responses": [
+        "The academic calendar is available on our website. It includes all key dates such as semester start, breaks, and exam periods.",
+        "You can find the full academic calendar on our site under the 'Academic' section."
+      ]
+    },
+    {
+      "tag": "virtual_learning",
+      "patterns": [
+        "Do you offer online classes?",
+        "Are there virtual learning options?",
+        "Can I study remotely?",
+        "Do you have an e-learning platform?"
+      ],
+      "responses": [
+        "Yes, we offer a variety of online and hybrid courses. Visit our e-learning page for more information.",
+        "You can access all online courses through our learning management system. Log in to explore remote learning options."
+      ]
+    },
+    {
+      "tag": "library_services",
+      "patterns": [
+        "How do I access library resources?",
+        "Can I borrow books from the library?",
+        "Where is the library?",
+        "Do you have an online library?"
+      ],
+      "responses": [
+        "Our library offers both physical and digital resources. You can borrow books and access research materials through our library portal.",
+        "The library is located in the main building. For online resources, you can visit our digital library section."
+      ]
+    },
+    {
+      "tag": "exam_results",
+      "patterns": [
+        "How can I check my exam results?",
+        "When will exam results be released?",
+        "Where can I see my grades?",
+        "Can I access my exam results online?"
+      ],
+      "responses": [
+        "Exam results are posted on the student portal. You can check them after the official release date.",
+        "Results will be available in your student account on the portal. Please check regularly."
+      ]
+    },
+    {
+      "tag": "teacher_contact",
+      "patterns": [
+        "How can I contact my professor?",
+        "Can I email my teacher?",
+        "Where can I find my professor's contact information?",
+        "How do I schedule a meeting with a professor?"
+      ],
+      "responses": [
+        "You can find your professor's contact information in your course syllabus or on the course page in the student portal.",
+        "To schedule a meeting, send an email to your professor or use the online scheduling tool."
+      ]
+    },
+    {
+      "tag": "time_management",
+      "patterns": [
+        "How can I improve my time management?",
+        "Do you have tips for better time management?",
+        "What are some good time management strategies?",
+        "How do I organize my study schedule?"
+      ],
+      "responses": [
+        "You can start by creating a study schedule and sticking to it. Try breaking tasks into smaller, manageable chunks.",
+        "Time management workshops are available through student services. Check out our resources page for more tips."
+      ]
+    },
+    {
+      "tag": "study_tips",
+      "patterns": [
+        "Do you have any study tips?",
+        "Can you help me study better?",
+        "Tell me the best way to prepare for exams",
+        "How can I study more effectively?"
+      ],
+      "responses": [
+        "Focus on active learning techniques, take regular breaks, and make sure to get plenty of sleep before exams.",
+        "We offer workshops and resources on effective study strategies. Visit our academic support page for more."
+      ]
+    },
+    {
+      "tag": "career_services",
+      "patterns": [
+        "Do you have career services?",
+        "How can I find a job after graduation?",
+        "Tell me about your career counseling",
+        "Do you offer job placement assistance?"
+      ],
+      "responses": [
+        "Yes, we offer career services including job placement assistance, resume building, and interview preparation.",
+        "You can book a career counseling session through our career services page. Check for upcoming job fairs."
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "How can I provide feedback?",
+        "Can I leave a suggestion for improvement?",
+        "Where can I give feedback about a course?",
+        "Do you take student feedback seriously?"
+      ],
+      "responses": [
+        "We value your feedback! You can leave suggestions through our online feedback form on the student portal.",
+        "Feel free to provide feedback via surveys that are sent out at the end of each semester."
+      ]
+    },
+    {
+      "tag": "campus_tour",
+      "patterns": [
+        "Can I take a campus tour?",
+        "Is there a campus visit program?",
+        "How do I schedule a tour of the campus?",
+        "Do you offer guided tours of the campus?"
+      ],
+      "responses": [
+        "Yes, we offer campus tours. You can schedule a visit through our admissions page or contact the tour coordinator.",
+        "To book a tour, please fill out the form on our campus tour page and select a time slot."
+      ]
+    },
+    {
+    "tag": "academic_advising",
+    "patterns": [
+      "How can I schedule an academic advising appointment?",
+      "What is academic advising?",
+      "Can I get help with course selection?",
+      "Who can advise me on my course choices?"
+    ],
+    "responses": [
+      "You can schedule an advising appointment by contacting the academic advising office through your student portal.",
+      "Academic advising is available to help you plan your academic path and select courses. Please reach out to an advisor."
+    ]
+  },
+  {
+    "tag": "online_courses",
+    "patterns": [
+      "Do you offer online programs?",
+      "Can I take courses online?",
+      "Are there distance learning options?",
+      "What online courses are available?"
+    ],
+    "responses": [
+      "Yes, we offer several online courses. Please visit our online learning page to explore available options.",
+      "You can access online courses through our learning management system. Browse our course catalog for online offerings."
+    ]
+  },
+  {
+    "tag": "course_materials",
+    "patterns": [
+      "How can I get course materials?",
+      "Where can I find course notes?",
+      "Are textbooks provided?",
+      "Do you offer any free resources for courses?"
+    ],
+    "responses": [
+      "Course materials are provided through the student portal or your instructor. Some resources are free online, check the course page.",
+      "Textbooks can be purchased at the campus bookstore or accessed digitally through our library."
+    ]
+  },
+  {
+    "tag": "group_study",
+    "patterns": [
+      "How can I find a study group?",
+      "Are there any group study opportunities?",
+      "Can I join a study group for my class?",
+      "Where can I find people to study with?"
+    ],
+    "responses": [
+      "You can join a study group by connecting with peers in your course via the student portal or joining relevant student groups.",
+      "Check out the student community board to find people interested in forming study groups."
+    ]
+  },
+  {
+    "tag": "scholarship_opportunities",
+    "patterns": [
+      "What scholarships are available?",
+      "Can I apply for a scholarship?",
+      "Are there any merit-based scholarships?",
+      "How do I apply for financial assistance?"
+    ],
+    "responses": [
+      "We offer a range of scholarships based on merit, need, and other criteria. Please visit our scholarship page for application details.",
+      "You can apply for scholarships through our financial aid portal. Make sure to check the deadlines for each one."
+    ]
+  },
+  {
+    "tag": "student_international",
+    "patterns": [
+      "Do you accept international students?",
+      "What is the process for international students?",
+      "Are there any specific requirements for international students?",
+      "How can I apply as an international student?"
+    ],
+    "responses": [
+      "Yes, we welcome international students. Visit our international admissions page for requirements and application instructions.",
+      "International students need to provide additional documentation like visas and proof of language proficiency. Details are on our website."
+    ]
+  },
+  {
+    "tag": "student_loans",
+    "patterns": [
+      "Do you offer student loans?",
+      "How can I apply for a student loan?",
+      "Are there any loan options for students?",
+      "What are the eligibility criteria for student loans?"
+    ],
+    "responses": [
+      "We offer student loans through government and private lenders. Visit our financial aid page for more information on loan options.",
+      "Eligibility for student loans depends on several factors including enrollment status and financial need. Please check with the financial aid office."
+    ]
+  },
+  {
+    "tag": "student_id_card",
+    "patterns": [
+      "How do I get my student ID?",
+      "Where can I get my student card?",
+      "What do I need to get a student ID?",
+      "Can I get an ID card if I'm a new student?"
+    ],
+    "responses": [
+      "You can get your student ID at the student services office. Bring proof of enrollment and a photo ID.",
+      "New students can receive their ID cards during orientation or by visiting the student services center."
+    ]
+  },
+  {
+    "tag": "classroom_technology",
+    "patterns": [
+      "What technology is available in the classrooms?",
+      "Do you have smart boards or projectors?",
+      "Can I use a laptop during class?",
+      "Are the classrooms equipped with technology?"
+    ],
+    "responses": [
+      "Our classrooms are equipped with projectors, smart boards, and Wi-Fi. You are welcome to use your laptop for class activities.",
+      "Each classroom is designed with modern tech for an enhanced learning experience, including audio-visual systems."
+    ]
+  },
+  {
+    "tag": "study_abroad",
+    "patterns": [
+      "Do you offer study abroad programs?",
+      "How can I apply to study abroad?",
+      "Where can I study abroad?",
+      "Tell me about the study abroad opportunities"
+    ],
+    "responses": [
+      "We offer various study abroad programs in partnership with international universities. Visit our study abroad page for details.",
+      "To apply for study abroad programs, please speak with the global education office for advice on destinations and requirements."
+    ]
+  },
+  {
+    "tag": "campus_safety",
+    "patterns": [
+      "How safe is the campus?",
+      "What are the safety measures on campus?",
+      "Do you have a security office?",
+      "How do I report a safety concern?"
+    ],
+    "responses": [
+      "Our campus is equipped with 24/7 security patrols and surveillance. If you need assistance, contact campus security through the emergency hotline.",
+      "For safety concerns, please report directly to the campus security office or use the campus safety app."
+    ]
+  },
+  {
+    "tag": "course_registration",
+    "patterns": [
+      "How do I register for classes?",
+      "When does course registration open?",
+      "Can I change my course schedule?",
+      "How do I drop a class?"
+    ],
+    "responses": [
+      "Course registration can be done through the student portal. Check the academic calendar for registration dates.",
+      "You can change your course schedule during the add/drop period. Be sure to do it before the deadline."
+    ]
+  },
+  {
+    "tag": "student_health_services",
+    "patterns": [
+      "Where is the student health center?",
+      "Do you offer health services for students?",
+      "Can I see a doctor on campus?",
+      "What health services are available for students?"
+    ],
+    "responses": [
+      "The student health center is located near the main building. We offer medical, counseling, and wellness services.",
+      "Students can visit the health center for general medical care, mental health support, and wellness programs."
+    ]
+  },
+  {
+    "tag": "academic_integrity",
+    "patterns": [
+      "What is academic integrity?",
+      "How do you define cheating or plagiarism?",
+      "What happens if I break the academic integrity policy?",
+      "Where can I find the academic integrity rules?"
+    ],
+    "responses": [
+      "Academic integrity is about honesty in all your academic work. Cheating, plagiarism, and dishonesty can lead to serious consequences.",
+      "You can find our academic integrity policy in the student handbook and on our website."
+    ]
+  },
+  {
+    "tag": "study_tips_for_exams",
+    "patterns": [
+      "How should I prepare for my exams?",
+      "What are the best study strategies?",
+      "Do you have tips for effective exam preparation?",
+      "How do I manage my time during exam week?"
+    ],
+    "responses": [
+      "It's best to start early, break your study sessions into manageable chunks, and review material regularly.",
+      "Use active recall, practice past exams, and make a study schedule leading up to the exam dates."
+    ]
+  },
+  {
+    "tag": "campus_jobs",
+    "patterns": [
+      "Are there any campus jobs?",
+      "How can I find a job on campus?",
+      "Can I work while studying?",
+      "Do you offer part-time jobs for students?"
+    ],
+    "responses": [
+      "Yes, we offer various on-campus employment opportunities. Check the student job board or the career services office for listings.",
+      "To apply for a campus job, visit the student employment section of the student portal."
+    ]
+  },
+  {
+    "tag": "academic_calendar_important_dates",
+    "patterns": [
+      "What are the important academic dates?",
+      "When is the semester break?",
+      "What is the last day to withdraw from a class?",
+      "Tell me about upcoming holidays."
+    ],
+    "responses": [
+      "Check the academic calendar for important dates such as the start of classes, holidays, and deadlines.",
+      "You can view all important academic dates on our website under the 'Academic Calendar' section."
+    ]
+  },
+  {
+    "tag": "faculty_office_hours",
+    "patterns": [
+      "What are the office hours for my professor?",
+      "Can I meet my professor outside of class?",
+      "When are office hours available?",
+      "How can I meet with my instructor?"
+    ],
+    "responses": [
+      "Your professor’s office hours are listed in the syllabus. You can also contact them via email to schedule a meeting.",
+      "Faculty office hours are posted on the course page or in the faculty directory. Feel free to drop in during those times."
+    ]
+  },
+  {
+    "tag": "student_loan_repayment",
+    "patterns": [
+      "When do I start repaying my student loan?",
+      "How do I repay my student loan?",
+      "What are the loan repayment options?",
+      "Do you offer guidance on repaying student loans?"
+    ],
+    "responses": [
+      "You can start repaying your loan after graduation. Our financial aid office can help guide you on repayment plans.",
+      "Check with your loan provider for the specific repayment options. Our financial aid office offers counseling on loan repayment."
+    ]
+  },
+  {
+    "tag": "career_fairs",
+    "patterns": [
+      "Do you have career fairs?",
+      "When is the next career fair?",
+      "How can I attend a career fair?",
+      "What companies will be at the career fair?"
+    ],
+    "responses": [
+      "Yes, we host career fairs several times a year. Check the career services page for upcoming events and company listings.",
+      "You can register for career fairs through the career services portal. Be sure to upload your resume ahead of time."
+    ]
+  },
+  {
+    "tag": "academic_support_services",
+    "patterns": [
+      "Do you offer tutoring services?",
+      "What academic support is available?",
+      "Can I get help with assignments?",
+      "Are there resources for struggling students?"
+    ],
+    "responses": [
+      "We offer tutoring, writing centers, and study workshops. Check our academic support page for details on how to access these services.",
+      "Our tutoring center offers help in various subjects. You can book a session through the student portal."
+    ]
+  },
+  {
+    "tag": "student_activities_schedule",
+    "patterns": [
+      "What activities are planned this semester?",
+      "Where can I see the student event schedule?",
+      "Are there any upcoming events on campus?",
+      "Tell me about student activities."
+    ],
+    "responses": [
+      "You can find the student activities schedule on the student portal or our events page.",
+      "There are regular student events and activities organized by student groups. Check the student calendar for upcoming events."
+    ]
+  },
+  {
+    "tag": "technology_support",
+    "patterns": [
+      "How do I get tech support?",
+      "Where can I get help with my laptop?",
+      "Is there a help desk for technical issues?",
+      "Do you offer IT support?"
+    ],
+    "responses": [
+      "You can contact tech support via the IT help desk on our website. They can assist with hardware and software issues.",
+      "For tech-related problems, visit the IT support center or submit a ticket through the student portal."
+    ]
+  }
+]
+}
